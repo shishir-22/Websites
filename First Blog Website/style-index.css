@@ -1,0 +1,73 @@
+ body{
+ 	background-color:#37474F;
+ }
+ .menu-font{
+ 	font-family: Brush Script MT, Brush Script Std, cursive;
+ 	font-size:30px;
+ }
+.banner{
+	background-image:url("header.jpg");
+	width:100%;
+	height:500px;
+	background-size:cover;
+	background-size:100% 100%;
+	background-repeat: no-repeat;
+	
+}
+.heading{
+	font-family:'Lobster', Georgia, Times, serif;
+	color:white;
+	border:1px solid transparent;
+	padding-top:200px;
+}
+.h2{
+	font-size:60px;
+}
+.h3{
+      font-family:"Comic Sans MS", cursive, sans-serif;
+}
+.para{
+      font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif
+}
+.jumback{
+	background-image:url("content.png");
+}
+.footer{
+	font-family:Brush Script MT, Brush Script Std, cursive;
+	font-size:40px;
+	color:white;
+	background-color:#A9A9A9;
+}
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0; 
+}
+.gallery{
+	margin:0px;
+	background-image:url("gallery.jpg");
+	color:white;
+}
+.image-hover:hover{
+	border:12px solid white;
+}
+.row{
+	margin-top:20px;
+}
+.col-lg-4{
+	margin-top:20px;
+}
+.col-lg-6{
+	margin-top:20px;
+}
+.card{
+	color:white;
+	background-image:url("cameraback.jpg");
+}
+
+.card-img-top:hover{
+	border:12px solid white;
+}

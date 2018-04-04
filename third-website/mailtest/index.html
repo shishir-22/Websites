@@ -1,0 +1,89 @@
+<html>
+	<head>
+		<title>Apply Now!!</title>
+		<link href="index-style.css" rel="stylesheet" type="text/css">
+	</head>
+
+	<body>
+        
+		<h1 class=heading>Apply for the best commitee of the UPES!!!</h1>
+        <h3 class="subheading"><marquee direction="right">Register now by filling the form and attach your resume!!</marquee></h3>
+        <div class="menu">
+        <ul>
+            <li><a>Home</a></li>
+            <li><a>About</a>
+              <ul>
+                   <li><a>Our team</a></li>
+                   <li><a>Camp sites</a></li>
+                   <li><a>Resources</a></li>
+               </ul>
+           </li>
+            <li><a>Things to do</a>
+                <ul>
+                    <li><a>Activities</a></li>
+                    <li><a>Parks</a></li>
+                    <li><a>Shops</a></li>
+                </ul>
+            </li>
+            <li><a>Commitee</a>
+                <ul>
+                    <li><a>Technical</a></li>
+                    <li><a>Public relations</a></li>
+                    <li><a>Event</a></li>
+                    <li><a>Editorial</a></li>
+                </ul>
+            </li>
+            <li><a href="mailto:shishirgoyal.work@gmail.com">Conatact us</a></li>
+        </ul>
+    </div>
+		
+     		<form class="form" action="response.php" method="post">
+     		
+     	<table>
+     		<tr>
+     			<td>Name:</td>
+     			<td><input type="text" name="name"></td>
+     		</tr>
+     		<tr>
+     	        <td>SAP ID:</td>
+     	        <td><input type="text" name="sapid"></td>
+     	    </tr>
+     	    <tr>
+     	    	<td>Branch:</td>
+     	    	<td><select name="branch">
+     	    		<option value="ccvt">CCVT</option>
+     	    		<option value="csf">CSF</option>
+     	    		<option value="bao">BAO</option>
+     	    		<option value="bfsi">BFSI</option>
+     	    		<option value="it">I.T</option>
+     	    		<option value="osos">OSOS</option>
+     	    		<option value="gg">G.G</option>
+                    </select></td>
+                </tr>
+            <tr>
+            	<td>Commitee:</td>
+            	<td><input type="radio" name="commitee" value="Technical">Technical
+            		<input type="radio" name="commitee" value="Public Relations">Public Relations
+            	</td>
+            </tr>
+            <tr>
+            	<td>Resume:</td>
+            	<td><input type="file" name="resume"></td>
+            </tr>
+            <tr>
+            	<td>Email</td>
+            	<td><input type="email" name="email"></td>
+            </tr>
+            <tr>
+            	<td></td>
+            	<td><input type="submit" value="submit"></td>
+            </tr>
+        </table>
+   
+     	</form>
+
+
+
+</body>
+</html>
+
